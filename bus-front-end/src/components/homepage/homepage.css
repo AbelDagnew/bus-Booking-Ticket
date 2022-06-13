@@ -1,0 +1,118 @@
+body {
+    background-color: gray;
+}
+
+.search_bus {
+    font-size: xx-large;
+    font-family: GilroySemiBold;
+    color: rgb(5, 113, 236);
+    margin-top: 4rem;
+}
+
+.home_content {
+    border-radius: 1rem;
+    padding: .75rem 2rem;
+    background-color: white;
+    
+    border: 1px solid gray;
+}
+
+.text-disable {
+    font-size: large;
+}
+
+.diparture {
+    font-family: GilroySemiBold !important;
+    font-size: 1.2rem !important;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.date {
+    font-family: GilroyBold;
+    margin-bottom: -10px;
+}
+
+.location {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    border: 3px solid #6f93da;
+    background-color: #2962D3;
+}
+
+.gap {
+    display: flex;
+    width: 1.2rem;
+    justify-content: center;
+}
+
+.path_point {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 2px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.white_dash {
+    height: 4px;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color: #6f93da !important;
+}
+
+hr {
+    border-top: 1px solid #a9a9a9;
+}
+
+.spliter {
+    width: 4px;
+}
+
+.company_image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.company_image img {
+    width: 100%;
+}
+
+.diparture_text {
+    margin-top: -4px !important;
+}
+
+.port_container {
+    width: calc(100% - 1.2rem);
+}
+
+.single-line {
+    white-space: nowrap !important;
+    max-width: 100%;
+    overflow: hidden !important;
+}
+
+.port_container .single-line {
+    font-size: large;
+}
+
+#price {
+    font-family: Gilroy !important;
+    font-size: x-large;
+    color: green;
+    margin: 0;
+}
+
+.company_container {
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.company {
+    margin-bottom: .5rem;
+}

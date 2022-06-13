@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bus-container{
+  display:flex;
+}
+.hero{
+  position:relative;
+  top: 5rem;
+  width: 90%;
+  left: 5%;
+}
+.btn{
+position: relative;
+top: 24rem;
+left: 51rem;
+width: 30%;
+
+}
+.findbus-btn{
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.bus-comp{
+  position:relative;
+  left:45%;
+}
+.card{
+  width: 654%;
+  height: 30%;
+  
+}

@@ -1,0 +1,45 @@
+.seat-picker {
+  margin: 0 auto;
+}
+.seat {
+  width: 60px;
+  height: 60px;
+}
+
+.seat {
+  border-radius: 0;
+}
+
+.seat__number {
+  font-size: 20px;
+}
+.peyment_api {
+  position: relative;
+  height: 5rem;
+  border: 1px solid #4d7dde;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-right: .25rem;
+  box-shadow: 0px 1px 0px 1px #AEAEAE;
+  margin-bottom: 2px;
+}
+
+.cheack-out {
+  position: absolute;
+  left: 4px;
+  top: 2px;
+}
+
+.peyment_api img {
+  width: auto;
+  height: 100%;
+}
+
+.peyment_api_container {
+  display: flex;
+  width: max-content;
+}
+
+.horizontal_scrollable {
+  overflow-x: auto;
+}
